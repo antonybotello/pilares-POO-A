@@ -40,5 +40,15 @@ public class Moto extends Vehiculo {
         this.cilindraje = cilindraje;
     }
 
+    @Override
+    public String toString() {
+        return "La Moto tiene: \ntipoManillar= " + tipoManillar + 
+        "\nCilindraje= " + cilindraje + 
+        "\nMotor= " + motor+ 
+        "\nNúmero Ruedas= " + numRuedas + 
+        "\nColor= "+ color ;
+    }
+
+    
     
 }

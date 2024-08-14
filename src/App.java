@@ -32,9 +32,17 @@ public class App {
                     miMoto.hacerCaballito();
                     miMoto.mover();
                     miMoto.detener();
-
+                    System.out.println(miMoto);
                     break;
                 case "2":
+                    Carro miCarro = new Carro();
+                    miCarro.setColor("amarillo");
+                    miCarro.setNumEjes("2");
+                    System.out.println("El carro es " + miCarro.getColor() +
+                            " y tiene " + miCarro.getNumEjes() + " Ejes");
+                    miCarro.arrancar();
+                    miCarro.mover();
+                    miCarro.detener();
                     break;
 
                 default:

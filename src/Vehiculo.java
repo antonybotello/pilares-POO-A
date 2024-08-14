@@ -1,7 +1,7 @@
 public abstract class Vehiculo {
-    private String motor;
-    private String numRuedas;
-    private String color;
+    protected String motor;
+    protected String numRuedas;
+    protected String color;
 
 
     
